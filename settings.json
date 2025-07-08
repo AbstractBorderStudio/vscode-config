@@ -1,0 +1,93 @@
+{
+	// === workbench settings === //
+	"workbench.colorTheme": "Aura Dracula Spirit (Synthwave)",
+	"workbench.activityBar.location": "hidden",
+	"workbench.editor.showTabs": "single",
+	"workbench.startupEditor": "none",
+	"workbench.tips.enabled": false,
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+
+	// === bottom status bar === //
+	"workbench.statusBar.visible": true,
+
+	// === icons/explorer === //
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.hidesExplorerArrows": true,
+	"workbench.tree.indent": 16,
+	"explorer.compactFolders": false,
+
+	// === file move/delete === //
+	"explorer.confirmDragAndDrop": true,
+	"explorer.confirmDelete": true,
+
+	// === error display === //
+	"explorer.decorations.badges": false,
+
+	// === git highlighting == //
+	"git.decorations.enabled": false,
+
+	// === window options === //
+	"window.zoomLevel": 1,
+
+	// === cursor === //
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorStyle": "block",
+	"workbench.colorCustomizations": {
+		"editorCursor.background" : "#000",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#191521"
+    }
+	},
+
+	// === font/text === //
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 16,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 1.5,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": "italic bold"
+				}
+			}
+		]
+	},
+	"editor.stickyScroll.enabled": false,
+	"editor.codeLens": false,
+	"editor.matchBrackets": "near",
+	"editor.lightbulb.enabled": "off",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"scm.diffDecorations": "none",
+	"editor.lineNumbers": "relative",
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.showFoldingControls": "never",
+	"editor.guides.indentation": true,
+	"editor.renderWhitespace": "none",
+	"editor.renderLineHighlight": "gutter",
+	"editor.occurrencesHighlight": "off",
+	"editor.selectionHighlight": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.overviewRulerBorder": false,
+	"editor.hideCursorInOverviewRuler": true,
+}
