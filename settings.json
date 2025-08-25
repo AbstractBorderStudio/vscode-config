@@ -57,7 +57,7 @@
 
 	// === font/text === //
 	"editor.fontFamily": "JetBrains Mono",
-	"editor.fontSize": 16,
+	"editor.fontSize": 14,
 	"editor.fontLigatures": true,
 	"editor.lineHeight": 1.5,
 	"editor.tokenColorCustomizations": {
@@ -90,4 +90,6 @@
 	"editor.scrollbar.vertical": "hidden",
 	"editor.overviewRulerBorder": false,
 	"editor.hideCursorInOverviewRuler": true,
+  "workbench.sideBar.location": "right",
+  "editor.wordWrap": "on"
 }
