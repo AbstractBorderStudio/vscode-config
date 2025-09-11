@@ -1,8 +1,8 @@
 {
-  "godotTools.editorPath.godot4": "C:\\Program Files\\Godot\\Godot_v4.4.1-stable_mono_win64\\Godot_v4.4.1-stable_mono_win64.exe",
+  	"godotTools.editorPath.godot4": "C:\\Program Files\\Godot\\Godot_v4.4.1-stable_mono_win64\\Godot_v4.4.1-stable_mono_win64.exe",
 	// === workbench settings === //
 	"workbench.colorTheme": "Aura Dracula Spirit (Synthwave)",
-	"workbench.activityBar.location": "hidden",
+	"workbench.activityBar.location": "bottom",
 	"workbench.editor.showTabs": "single",
 	"workbench.startupEditor": "none",
 	"workbench.tips.enabled": false,
@@ -32,7 +32,7 @@
 	"window.zoomLevel": 1,
 
 	// === cursor === //
-	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.multiCursorModifier": "alt",
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
 	"workbench.colorCustomizations": {
@@ -74,7 +74,7 @@
 	"editor.stickyScroll.enabled": false,
 	"editor.codeLens": true,
 	"editor.matchBrackets": "near",
-	"editor.lightbulb.enabled": "off",
+	"editor.lightbulb.enabled": "onCode",
 	"files.trimTrailingWhitespace": true,
 	"files.insertFinalNewline": true,
 	"scm.diffDecorations": "none",
@@ -91,8 +91,11 @@
 	"editor.scrollbar.vertical": "visible",
 	"editor.overviewRulerBorder": false,
 	"editor.hideCursorInOverviewRuler": true,
-  "workbench.sideBar.location": "right",
-  "editor.wordWrap": "on",
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "python.defaultInterpreterPath": "c:\\Users\\danie\\AppData\\Local\\Microsoft\\WindowsApps\\python3.12.exe"
+    "workbench.sideBar.location": "right",
+    "editor.wordWrap": "on",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "python.defaultInterpreterPath": "c:\\Users\\danie\\AppData\\Local\\Microsoft\\WindowsApps\\python3.12.exe",
+    "git.ignoreMissingGitWarning": true,
+    "editor.insertSpaces": false,
+	"editor.useTabStops": true
 }
