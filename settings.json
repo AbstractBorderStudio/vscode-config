@@ -1,7 +1,6 @@
 {
 	// === workbench settings === //
 	"workbench.colorTheme": "Aura Dracula Spirit (Synthwave)",
-	"workbench.activityBar.location": "bottom",
 	"workbench.startupEditor": "none",
 	"workbench.tips.enabled": false,
 	"editor.minimap.enabled": true,
@@ -12,7 +11,7 @@
 
 	// === icons/explorer === //
 	"workbench.iconTheme": "material-icon-theme",
-	"material-icon-theme.hidesExplorerArrows": true,
+	//"material-icon-theme.hidesExplorerArrows": true,
 	"workbench.tree.indent": 16,
 	"explorer.compactFolders": false,
 
@@ -76,5 +75,20 @@
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"git.ignoreMissingGitWarning": false,
 	"editor.insertSpaces": false,
-	"editor.useTabStops": true
+	"editor.useTabStops": true,
+	"workbench.activityBar.location": "bottom",
+	"claudeCode.preferredLocation": "panel",
+	"git.openRepositoryInParentFolders": "never",
+
+	// === Godot specific settings === //
+	"explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        // ...
+        "*.gd": "$(capture).gd.uid",
+        "*.cs": "$(capture).cs.uid",
+        "*.gdshader": "$(capture).gdshader.uid",
+        "*.shader": "$(capture).shader.uid",
+        // ...
+    },
 }
